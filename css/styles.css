@@ -24,9 +24,8 @@ body {
 .logo {
     color: var(--secondary-text-color);
     font-weight: 700;
-font-size: 26px;
-line-height: 1.2;
-
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .list {
@@ -36,8 +35,8 @@ line-height: 1.2;
 .site-nav {
     color: var(--secondary-text-color);
     font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .contacts {
@@ -79,8 +78,8 @@ line-height: 1.14;
 
 .person {
     font-weight: 500;
-font-size: 16px;
-line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.2;
 }
 
 .prof {
@@ -91,13 +90,13 @@ line-height: 1.2;
 .title-name {
     color: var(--secondary-text-color);
     font-weight: 700;
-font-size: 18px;
-line-height: 2;
+    font-size: 18px;
+    line-height: 2;
 }
 
 .discr {
     font-size: 16px;
-line-height: 1.9;
+    line-height: 1.9;
 }
 .button.primary {
     color: var(--title-text-color);
@@ -112,9 +111,13 @@ line-height: 1.9;
     color: var(--secondary-text-color);
     background-color: var(--secondary-button-color);
     font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-cursor: pointer;
+    font-size: 16px;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+.accent {
+    color: var(--accent-color);
 }
 
 .button.secondary:hover, .button.secondary:focus {
@@ -123,6 +126,7 @@ cursor: pointer;
 }
 .footer {
     color: var(--title-text-color);
+    font-style: normal;
     font-size: 14px;
-line-height: 1.7;
+    line-height: 1.7;
 }
